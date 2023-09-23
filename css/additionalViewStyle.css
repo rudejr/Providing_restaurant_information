@@ -1,0 +1,77 @@
+header {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 1px;
+    background-color: gray;
+    color: #fff;
+    opacity : 0.9;
+}
+.dropMenu {
+    display : inline-block;
+    border:none;
+    border:0px;
+    margin:0px;
+    padding:0px;
+    font-size:18px;
+}
+.dropMenu ul {
+  height:30px;
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.dropMenu li {
+  float:left;
+  padding:0px;
+}
+.dropMenu li ul {
+  background: gray;
+  display:none;
+  height:auto;
+  border:0px;
+  position:absolute;
+  width:200px;
+  z-index:200;
+}
+.dropMenu li a {
+  display:block;
+  line-height:65px;
+  margin:0px;
+  padding:0px 25px;
+  text-align:center;
+  text-decoration:none;
+}
+.dropMenu li li {
+  background: gray;
+  display:block;
+  float:none;
+  margin:0px;
+  padding:0px;
+  width:200px;
+}
+.dropMenu li ul a {
+  display:block;
+  height:80px;
+  font-size:14px;
+  margin:0px;
+  padding:0px 10px 0px 15px;
+  text-align:left;
+}
+.dropMenu ul li:hover ul {
+  display:block;
+}
+.dropMenu ul li a:hover, .dropMenu ul li:hover a {
+  background: rgb(31,31,31);
+  color:#FFFFFF;
+  text-decoration:none;
+}
+.dropMenu li:hover li a {
+  background:none;
+}
+.dropMenu li ul a:hover, .dropMenu li ul li:hover a {
+  background: rgb(171,171,171);
+  border:0px;
+  color:#ffffff;
+  text-decoration:none;
+}
